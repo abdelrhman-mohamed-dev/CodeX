@@ -73,7 +73,7 @@ const handelSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   loader(messageDiv);
 
-  const response = await fetch("https://codex-jgai.onrender.com", {
+  const response = await fetch("https://codex-4tib.onrender.com", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
